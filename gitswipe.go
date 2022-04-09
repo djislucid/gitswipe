@@ -54,7 +54,7 @@ func printWantedFileContents(file string) {
 			log.Fatal(err)
 		}
 		// pass to stdin some fucking how
-		fmt.Println(contents)
+		fmt.Println(string(contents))
 	}
 
 }
